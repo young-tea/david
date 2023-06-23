@@ -1,0 +1,54 @@
+/* mains */
+body {
+  background-color: #0C134F;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* classes and ids */
+.main-text {
+  font-family: 'Nunito', sans-serif;
+  font-size: 7.5em;
+  margin-top: 0;
+
+  color: #9376E0;
+  text-shadow: -2px 2px 0px #E893CF, -4px 4px 0px #F3BCC8, -6px 6px 0px #F6FFA6, -8px 8px 0px #F3BCC8, -2px 2px 0px #E893CF;
+}
+
+.main {
+  margin-top: 3.5%;
+  margin-bottom: 10%;
+  background-color: #1D267D;
+  border-radius: 25px;
+  padding: 5%;
+  padding-bottom: 3%;
+}
+
+.text-bottom {
+  color: #fff;
+}
+
+.dimg {
+  width: 50%;
+  margin-top: 5em;
+  border-radius: 20px;
+}
+
+/* stars */
+.stars {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  display: block;
+
+  background: #0C134F url(../img/stars.png) repeat top center;
+  z-index: -1;
+
+}
